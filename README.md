@@ -1,39 +1,49 @@
-# hypothesis-testing-practical-lab
-A Jupyter notebook practical lab covering core hypothesis testing methods through real-world examples, including t-tests, A/B testing, chi-squared analysis, nonparametric tests, confidence intervals, and effect size interpretation.
-
-
-Here is a **shorter GitHub-style version** too:
-
-```markdown
 # Hypothesis Testing Practical Lab
 
-A Jupyter notebook covering core hypothesis testing methods in Python through practical and real-world examples.
+This repository contains a Jupyter notebook focused on hypothesis testing and applied statistical inference in Python. It uses practical examples to show how different statistical tests can be selected, performed, and interpreted in real-world situations.
 
-## Topics Covered
+The notebook covers both parametric and nonparametric approaches, together with confidence intervals, effect size interpretation, assumption checking, and visualization. It is designed as a hands-on learning resource for students and beginners who want to strengthen their understanding of applied statistics with Python.
 
-- t-tests
-- A/B testing
-- chi-squared tests
-- nonparametric tests
+## Contents
+
+This notebook includes practical exercises and examples on:
+
+- hypothesis testing in applied settings
+- comparison of groups using t-tests
+- A/B testing analysis
+- chi-squared tests for categorical data
+- nonparametric testing for skewed distributions
 - confidence intervals
-- effect sizes
-- assumption checking
+- effect size calculation and interpretation
+- assumption checking and data visualization
 
-## File
+## Objectives
 
-- `08-practical-lab (3).ipynb`
+The main goals of this notebook are to:
+
+- understand the logic of hypothesis testing
+- learn how to choose an appropriate statistical test
+- interpret p-values, confidence intervals, and effect sizes correctly
+- compare parametric and nonparametric methods
+- apply statistical inference tools to realistic examples in Python
+
+## Repository Structure
+
+- `08-practical-lab (3).ipynb` — main Jupyter notebook
 
 ## Requirements
 
-Python 3 with:
+To run the notebook, you may need:
 
-- numpy
-- pandas
-- matplotlib
-- scipy
-- statsmodels
-- jupyter
+- Python 3
+- Jupyter Notebook or JupyterLab
+- NumPy
+- Pandas
+- Matplotlib
+- SciPy
+- Statsmodels
 
-## Purpose
+You can install the main dependencies with:
 
-This notebook was developed as a practical introduction to hypothesis testing and applied statistical inference using Python.
+```bash
+pip install numpy pandas matplotlib scipy statsmodels jupyter
